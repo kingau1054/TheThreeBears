@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!--StyleSheets-->
-<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <!--End of Stylesheets-->
 <!--Start of Bootstrap Stylesheets-->
 <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
@@ -27,13 +28,17 @@
 
 <body>
 
-  <header class="header">
+  <header class="jumbotron jumbotron-fluid">
     <div class="container">
-      <nav class="nav">
-        <a href="index.html" class="logo">
-          <img src="img/cabinlogo.png" alt="Cabin Logo">
-        </a>
-      </nav>
+      <div class="row">
+        <div class="col-4 col-sm-3 col-md-2 align-self-center">
+          <img src="img/cabinlogo.png" alt="Cabin Logo" class="img-fluid" />
+        </div>
+        <div class="col">
+          <h1>Three Bears Cabin</h1>
+          <h2>A Family Vacation Rental</h2>
+        </div>
+      </div>
     </div>
   </header>
 
