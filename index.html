@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!--StyleSheets-->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <!--End of Stylesheets-->
-<!--Start of Bootstrap Stylesheets-->
-<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-<!--End of Bootstrap Stylesheets-->
+
     <title>The Three Bears</title>
 <!--<style>
   #gsmBackgroundSign {
@@ -42,8 +41,32 @@
     </div>
   </header>
 
-<!--The Great Smokey Mountains Main Info Start-->
-<!--<div id="gsmBackgroundSign" class="img-fluid">-->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #1A4314;">
+  <a class="navbar-brand" href="index.html">Three Bears</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="#navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Reviews</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Book</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
 <div class="container">
   <div class="row">
     <div class="col">
@@ -55,8 +78,7 @@
   </div>
 </div>
 </div>
-<!--Add Great Smokey Mountain Background Picture here-->
-<!--The Great Smokey Mountains End-->
+
 
 <div class="container">
   <div class="row">
@@ -104,5 +126,9 @@
 <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <!--End of Required Scripts-->
+
+<!--Additional Scripts-->
+
+<!--End of Additional Scripts-->
 </body>
 </html>
