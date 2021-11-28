@@ -165,8 +165,8 @@ header > .container {
 }
 /*End of About*/
 
-/*Beginning of Menu*/
-.menu {
+/*Beginning of Rate Section*/
+.info {
     background-color: #01440B;
 }
 
@@ -194,6 +194,47 @@ hr{
     border-top: 1px solid rgba(255, 255, 255, .05);
 }
 
+.point-left {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+}
+
+.rate-item-desc {
+padding: 50px 10px;
+color: #212529;
+margin: auto;
+}
+
+.rate-item-desc h6 {
+    color: crimson;
+    font-size: 20px;
+}
+
+.rate-item-desc h1 {
+    color: #01440B;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: Amatic SC, cursive;
+    font-weight: 300
+}
+
+.point-left::before{
+ content: "";
+ position: absolute;
+ width: 25px;
+ height: 25px;
+ background-color: #fff;
+ top: -12px;
+ left: 50%;
+ transform: translateX(-50%) rotate(45deg);
+ z-index: 1;
+}
+
+/*Review Section*/
+
+
+/*media quesries section*/
 @media (min-width: 576px) {
     .navbar-brand {
         max-width: 150px;
@@ -202,6 +243,14 @@ hr{
         top: 35px;
         right: 25px;
     }
+
+.point-left::before {
+    display: none;
+}
+
+.rate-item-desc {
+    padding: 50px 20px;
+}
 }
 
 @media (min-width: 768px) {
@@ -259,4 +308,15 @@ hr{
         transform: scaleX(1);
         
     }
+    }
+
+    @media (min-width: 1200px) {
+        .rate-item-desc p{
+            display: none;
+        }
+
+        .rate-item-desc .btn{
+            color: #fff !important;
+            background-color: crimson;
+        }
     }
