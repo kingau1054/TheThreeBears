@@ -54,7 +54,7 @@ header > .container {
     width: 50px;
     height: 50px;
     display: flex;
-    background-color: ;
+    background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
     z-index: 999;
@@ -163,6 +163,36 @@ header > .container {
     color: #fff !important;
     background-color: crimson;
 }
+/*End of About*/
+
+/*Beginning of Menu*/
+.menu {
+    background-color: #01440B;
+}
+
+.cabin-info i {
+    color: crimson;
+    font-size: 50px;
+}
+
+.cabin-info h1{
+    font-family: Amatic SC, sans-serif;
+    font-size: 25;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.cabin-info p {
+    color: rgba(255, 255, 255, .5);  
+}
+
+.cabin-info address {
+    color: rgba(255, 255, 255, .5);
+}
+
+hr{
+    border-top: 1px solid rgba(255, 255, 255, .05);
+}
 
 @media (min-width: 576px) {
     .navbar-brand {
@@ -230,4 +260,3 @@ header > .container {
         
     }
     }
-/*End of About*/
